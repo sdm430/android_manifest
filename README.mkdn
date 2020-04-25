@@ -21,9 +21,7 @@ familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
     mkdir los
     cd los
 
-4.To initialize your local repository using the Havoc trees, use a command like this:
-
-Havoc
+4.To initialize your local repository using the Lineage trees, use a command like this:
 
     repo init -u git://github.com/LineageOS/android.git -b lineage-17.1 --depth=1
      
@@ -32,7 +30,7 @@ Havoc
 
     mkdir .repo/local_manifests
 
-    wget -O .repo/local_manifests/MSM8916.xml 'https://raw.githubusercontent.com/sdm430/android_manifest/lineage-17.1/sdm430.xml'
+    wget -O .repo/local_manifests/sdm430.xml 'https://raw.githubusercontent.com/sdm430/android_manifest/lineage-17.1/sdm430.xml'
     
 6.Then to sync up:
 
