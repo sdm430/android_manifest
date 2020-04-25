@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="git"
+          fetch="https://github.com/" />
+  
+  <remote fetch="https://github.com/sdm430" name="asus"/>
+
+        <project name="device_asus_X00P" path="device/asus/X00P" remote="asus" revision="lineage-17.1" />
+        <project name="kernel_asus_X00P" path="kernel/asus/X00P" remote="asus" revision="lineage-17.1" />
+        <project name="vendor_asus" path="vendor/asus" remote="asus" revision="lineage-17.1" />
+
+</manifest>
