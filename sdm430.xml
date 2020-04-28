@@ -9,5 +9,6 @@
         <project name="device_asus_X00P" path="device/asus/X00P" remote="asus" revision="lineage-17.1" />
         <project name="kernel_asus_X00P" path="kernel/asus/X00P" remote="asus" revision="lineage-17.1" />
         <project name="vendor_asus" path="vendor/asus" remote="asus" revision="lineage-17.1" />
+        <project name="vendor_firmware-asus" path="vendor/firmware-asus" remote="asus" revision="master" />
 
 </manifest>
